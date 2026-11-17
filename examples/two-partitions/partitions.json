@@ -1,0 +1,4 @@
+[
+  {"id":"A","name":"Sender","sources":["partition_a.c"],"build_target":"partition_a","entry_point":"partition_init","address_space":"space_A","limits":{"max_processes":1}},
+  {"id":"B","name":"Receiver","sources":["partition_b.c"],"build_target":"partition_b","entry_point":"partition_init","address_space":"space_B","limits":{"max_processes":1}}
+]

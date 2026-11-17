@@ -1,0 +1,1 @@
+{"major_frame_ms":40,"windows":[{"partition":"A","duration_ms":20},{"partition":"B","duration_ms":20}],"limits":{"max_partitions":10}}

@@ -1,0 +1,7 @@
+{
+  "ports":[
+    {"partition":"A","name":"out","type":"queuing","direction":"source"},
+    {"partition":"B","name":"in","type":"queuing","direction":"destination"}
+  ],
+  "channels":[{"id":"greeting","source":{"partition":"A","port":"out"},"destination":{"partition":"B","port":"in"},"message_size":128,"queue_capacity":4}]
+}
